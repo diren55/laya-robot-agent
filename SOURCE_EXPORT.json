@@ -1,6 +1,6 @@
 {
   "source_archive": "laya_robot_agent_T4_full_20260930.zip",
-  "contents": "Browsable source/configuration/license subset; Release split ZIP contains ALL original runtime weights and assets.",
+  "contents": "Browsable source/configuration/license subset. Release best_selected.pt plus laya_agent_runtime_and_assets.zip contain ALL original runtime weights and assets; these are independent files, not split volumes.",
   "files": [
     {
       "path": "COMPONENTS.json",
