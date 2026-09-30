@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "n": 4,
+    "full_success": 4,
+    "physical_success": 4,
+    "unknown": 0,
+    "generative_llm_calls": 0
+  },
+  "tasks": [
+    {
+      "task": "CubeLift",
+      "seed": 1061201,
+      "full_success": true,
+      "physical_steps": 119,
+      "generative_llm_calls": 0
+    },
+    {
+      "task": "CubeStack",
+      "seed": 1061201,
+      "full_success": true,
+      "physical_steps": 204,
+      "generative_llm_calls": 0
+    },
+    {
+      "task": "CubeRestack",
+      "seed": 1061201,
+      "full_success": true,
+      "physical_steps": 401,
+      "generative_llm_calls": 0
+    },
+    {
+      "task": "SpillWipe",
+      "seed": 1061201,
+      "full_success": true,
+      "physical_steps": 650,
+      "generative_llm_calls": 0
+    }
+  ],
+  "verification_scope": "Packaged code, bundled base/T4/DINO, bundled CaP-X/robosuite/assets and newly launched bundled PyRoKi service; existing compatible Python environments. Not a clean-machine pip install and not new generalization data.",
+  "prior_failed_attempts": [
+    {
+      "attempt": 1,
+      "cause": "Missing panda_spheres.json, bundled unchanged upstream file."
+    },
+    {
+      "attempt": 2,
+      "cause": "Wrong initial model directory in old docs, bundled actual laya_en initializer."
+    },
+    {
+      "attempt": 3,
+      "cause": "Missing upstream robot controller config subtree, bundled unchanged."
+    }
+  ],
+  "output_directory": "/root/laya_delivery_portable_attempt4"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "IDEA-Research/grounding-dino-tiny",
+  "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+  "transport": "hf-mirror",
+  "files": [
+    "README.md",
+    "added_tokens.json",
+    "config.json",
+    "preprocessor_config.json",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.txt",
+    "model.safetensors"
+  ]
+}

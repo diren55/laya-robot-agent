@@ -1,0 +1,263 @@
+{
+  "updated_utc": "2026-09-30T15:02:17.564703+00:00",
+  "comparator_mode": "literalrules",
+  "summary": {
+    "laya": {
+      "n": 32,
+      "full_success": 32,
+      "physical_success": 32,
+      "unknown": 0,
+      "llm_calls": 0
+    },
+    "literalrules": {
+      "n": 32,
+      "full_success": 32,
+      "physical_success": 32,
+      "unknown": 0,
+      "llm_calls": 0
+    }
+  },
+  "families": {
+    "CubeLift": {
+      "outcomes": {
+        "literalrules": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        },
+        "laya": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        }
+      },
+      "common_success_n": 8,
+      "common_layers": {
+        "literalrules": {
+          "wall_seconds": 2.3394142996985465,
+          "reset_seconds": 1.1144855668535456,
+          "decision_seconds": 0.001712167402729392,
+          "code_execution_seconds": 1.2020326886558905,
+          "physical_steps": 119.125,
+          "physical_seconds": 5.956250000000001,
+          "nested_vision_seconds": 0.3591102783102542,
+          "nested_capture_seconds": 0.15701596689177677,
+          "nested_motion_seconds": 0.9217683332972229,
+          "nested_ik_seconds": 0.019875878584571183
+        },
+        "laya": {
+          "wall_seconds": 2.587686152779497,
+          "reset_seconds": 1.1657750516897067,
+          "decision_seconds": 0.09854468976845965,
+          "code_execution_seconds": 1.2995403477107175,
+          "physical_steps": 119.125,
+          "physical_seconds": 5.956250000000001,
+          "nested_vision_seconds": 0.4240552241099067,
+          "nested_capture_seconds": 0.16438404883956537,
+          "nested_motion_seconds": 1.000633959658444,
+          "nested_ik_seconds": 0.021303405752405524
+        }
+      }
+    },
+    "CubeRestack": {
+      "outcomes": {
+        "literalrules": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        },
+        "laya": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        }
+      },
+      "common_success_n": 8,
+      "common_layers": {
+        "literalrules": {
+          "wall_seconds": 6.629145203041844,
+          "reset_seconds": 1.2184512678650208,
+          "decision_seconds": 0.005975821986794472,
+          "code_execution_seconds": 5.380322075332515,
+          "physical_steps": 472.5,
+          "physical_seconds": 23.625,
+          "nested_vision_seconds": 0.5923818568699062,
+          "nested_capture_seconds": 0.32472674222663045,
+          "nested_motion_seconds": 4.6593941625906155,
+          "nested_ik_seconds": 0.10176459519425407
+        },
+        "laya": {
+          "wall_seconds": 6.8284505608608015,
+          "reset_seconds": 1.2119992575026117,
+          "decision_seconds": 0.2049006688175723,
+          "code_execution_seconds": 5.376117164792959,
+          "physical_steps": 472.5,
+          "physical_seconds": 23.625,
+          "nested_vision_seconds": 0.6161246220581234,
+          "nested_capture_seconds": 0.3311119331046939,
+          "nested_motion_seconds": 4.640651226683985,
+          "nested_ik_seconds": 0.1004123511374928
+        }
+      }
+    },
+    "CubeStack": {
+      "outcomes": {
+        "literalrules": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        },
+        "laya": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        }
+      },
+      "common_success_n": 8,
+      "common_layers": {
+        "literalrules": {
+          "wall_seconds": 3.211750624177512,
+          "reset_seconds": 1.154401618463453,
+          "decision_seconds": 0.0019678164971992373,
+          "code_execution_seconds": 2.033902572351508,
+          "physical_steps": 207.625,
+          "physical_seconds": 10.381250000000001,
+          "nested_vision_seconds": 0.3454970249440521,
+          "nested_capture_seconds": 0.1622957979561761,
+          "nested_motion_seconds": 1.7572219066787511,
+          "nested_ik_seconds": 0.041584538004826754
+        },
+        "laya": {
+          "wall_seconds": 3.401954389468301,
+          "reset_seconds": 1.1118253888562322,
+          "decision_seconds": 0.15699736849637702,
+          "code_execution_seconds": 2.105794574774336,
+          "physical_steps": 207.625,
+          "physical_seconds": 10.381250000000001,
+          "nested_vision_seconds": 0.3505526193184778,
+          "nested_capture_seconds": 0.16861149203032255,
+          "nested_motion_seconds": 1.8088498493889347,
+          "nested_ik_seconds": 0.041661318100523204
+        }
+      }
+    },
+    "SpillWipe": {
+      "outcomes": {
+        "literalrules": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        },
+        "laya": {
+          "n": 8,
+          "full": 8,
+          "physical": 8,
+          "U": 0
+        }
+      },
+      "common_success_n": 8,
+      "common_layers": {
+        "literalrules": {
+          "wall_seconds": 8.563946718291845,
+          "reset_seconds": 1.7464995177579112,
+          "decision_seconds": 0.0014383698580786586,
+          "code_execution_seconds": 6.795964398421347,
+          "physical_steps": 510,
+          "physical_seconds": 25.5,
+          "nested_vision_seconds": 1.4011508538387716,
+          "nested_capture_seconds": 0.14602169435238466,
+          "nested_motion_seconds": 6.102639943943359,
+          "nested_ik_seconds": 0.28521861776243895
+        },
+        "laya": {
+          "wall_seconds": 9.089577717822976,
+          "reset_seconds": 1.753443869878538,
+          "decision_seconds": 0.09428230515914038,
+          "code_execution_seconds": 7.219162208086345,
+          "physical_steps": 510,
+          "physical_seconds": 25.5,
+          "nested_vision_seconds": 1.4520108564174734,
+          "nested_capture_seconds": 0.14019606600049883,
+          "nested_motion_seconds": 6.49377296527382,
+          "nested_ik_seconds": 0.2852866322500631
+        }
+      }
+    }
+  },
+  "exact_initial_pairs": 32,
+  "both_full_success": 32,
+  "common_layers": {
+    "literalrules": {
+      "wall_seconds": 5.186064211302437,
+      "reset_seconds": 1.3084594927349826,
+      "decision_seconds": 0.00277354393620044,
+      "code_execution_seconds": 3.853055433690315,
+      "physical_steps": 327.3125,
+      "physical_seconds": 16.365625,
+      "nested_vision_seconds": 0.674535003490746,
+      "nested_capture_seconds": 0.197515050356742,
+      "nested_motion_seconds": 3.360256086627487,
+      "nested_ik_seconds": 0.11211090738652274
+    },
+    "laya": {
+      "wall_seconds": 5.476917205232894,
+      "reset_seconds": 1.3107608919817721,
+      "decision_seconds": 0.13868125806038734,
+      "code_execution_seconds": 4.000153573841089,
+      "physical_steps": 327.3125,
+      "physical_seconds": 16.365625,
+      "nested_vision_seconds": 0.7106858304759953,
+      "nested_capture_seconds": 0.20107588499377016,
+      "nested_motion_seconds": 3.485977000251296,
+      "nested_ik_seconds": 0.11216592681012116
+    }
+  },
+  "mean_wall_ratio_baseline_over_laya": 0.9468947615909616,
+  "mean_wall_reduction_fraction": -0.056083569751522955,
+  "median_pair_ratio": 0.9437520005969777,
+  "common_same_physical_steps": 32,
+  "baseline_success_laya_failure": [],
+  "baseline_failure_laya_success": [],
+  "unknown_pairs": [],
+  "planner_requests": 43,
+  "model_calls": 0,
+  "rule_compiler_calls": 43,
+  "model_seconds_total": 0.0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "length_cap_hits": 0,
+  "cold": {
+    "MODEL_READY.json": {
+      "ready": true,
+      "vision_cold_seconds": 2.150460148230195,
+      "laya_cold_seconds": 3.070344515144825
+    },
+    "PLANNER_READY.json": {
+      "ready": true,
+      "planner": "bounded_literal_goal_rules",
+      "neural": false,
+      "cold_seconds": 1.1913944035768509e-05,
+      "boundary": "Only pick-up/lift, place-or-stack-on-top, wipe-up grammar; original instructions and current detected names, no task-label lookup; unknown grammar clarifies."
+    },
+    "CubeLift_ENV_COLD.json": {
+      "seconds": 1.4127916968427598
+    },
+    "CubeStack_ENV_COLD.json": {
+      "seconds": 0.6114375530742109
+    },
+    "CubeRestack_ENV_COLD.json": {
+      "seconds": 0.6209556637331843
+    },
+    "SpillWipe_ENV_COLD.json": {
+      "seconds": 0.7599317021667957
+    }
+  },
+  "boundary": "Known32 development comparison, repeated T4 here solely for contemporary alternating paired latency. Not independent generalization, frozen128TEST, original-paper reproduction or statistical noninferiority. Warm resident-model task wall includes reset and all active observation/motion; model/env cold measured separately, persistent motion-service cold not measured. Nested times overlap; do not add to wall. Speed comparisons only jointly complete successful tasks, not failures. Simulator wall is not real-robot time; detector and skill substitutions disclosed. All original attempts and prompt regressions retained."
+}

@@ -1,0 +1,29 @@
+{
+  "capx_commit": "53e9966d7a8e2fa7494676772bccc35280f5c0ed",
+  "robosuite_commit": "97292732ed909ac3ae116579fb768607034a4dbd",
+  "laya_model": {
+    "repo": "convaiinnovations/laya",
+    "local_runtime_model": "laya_en",
+    "source_note": "Actual DirectAnswers initializer. Config/tokenizer/weights and upstream README bundled."
+  },
+  "dino_model": {
+    "repo": "IDEA-Research/grounding-dino-tiny",
+    "revision": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
+    "transport": "hf-mirror",
+    "files": [
+      "README.md",
+      "added_tokens.json",
+      "config.json",
+      "preprocessor_config.json",
+      "special_tokens_map.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.txt",
+      "model.safetensors"
+    ]
+  },
+  "panda_assets_revision": "d0d9098d752014aec3725b07766962acf06c5418",
+  "jaxls_source": "https://codeload.github.com/brentyi/jaxls/zip/6fe7cf9d56223736b2c0272d080ec7346203c648",
+  "pyroki_source": "https://codeload.github.com/chungmin99/pyroki/zip/95afccc22658c461ab1042a048ae4e9c24bc2a47",
+  "boundary": "Frozen inference handoff. Source relocation and configurable local IK port only. No new training. Vendored CaP-X simulator/motion subset; not original complete paper agent."
+}

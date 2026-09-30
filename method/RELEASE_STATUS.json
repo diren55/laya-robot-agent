@@ -1,0 +1,69 @@
+{
+  "stage": "runtime_verified",
+  "source_version": "frozen T4 / atomic wipe / no prerequisite expansion",
+  "files": [
+    "aggregation.py",
+    "bootstrap.py",
+    "common.py",
+    "motion.py",
+    "native_cube.py",
+    "native_spill.py",
+    "question_direct.py",
+    "question_scope.py",
+    "run_native.py",
+    "semantic_agent.py",
+    "semantic_core.py",
+    "skill_execution.py",
+    "vision_spill.py",
+    "worker.py"
+  ],
+  "runtime_integration": {
+    "path": "/root/autodl-tmp/agp_laya_sim_20260930/release_runs/release1_runtime_attempt1",
+    "n": 4,
+    "full_success": 4,
+    "unknown": 0,
+    "source_behavior_matches": true,
+    "checks": [
+      {
+        "task": "CubeLift",
+        "same_initial_arrays": true,
+        "same_skill_calls": true,
+        "same_physical_steps": true,
+        "full_success": true,
+        "reference_full_success": true,
+        "generative_llm_calls": 0
+      },
+      {
+        "task": "CubeStack",
+        "same_initial_arrays": true,
+        "same_skill_calls": true,
+        "same_physical_steps": true,
+        "full_success": true,
+        "reference_full_success": true,
+        "generative_llm_calls": 0
+      },
+      {
+        "task": "CubeRestack",
+        "same_initial_arrays": true,
+        "same_skill_calls": true,
+        "same_physical_steps": true,
+        "full_success": true,
+        "reference_full_success": true,
+        "generative_llm_calls": 0
+      },
+      {
+        "task": "SpillWipe",
+        "same_initial_arrays": true,
+        "same_skill_calls": true,
+        "same_physical_steps": true,
+        "full_success": true,
+        "reference_full_success": true,
+        "generative_llm_calls": 0
+      }
+    ],
+    "boundary": "Four existing cases verify packaging fidelity, not new generalization evidence"
+  },
+  "weights_included": false,
+  "generative_comparators_included": false,
+  "updated_utc": "2026-09-30T13:52:55.741438+00:00"
+}

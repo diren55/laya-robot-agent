@@ -1,0 +1,2022 @@
+{
+  "source_archive": "laya_robot_agent_T4_full_20260930.zip",
+  "contents": "Browsable source/configuration/license subset; Release split ZIP contains ALL original runtime weights and assets.",
+  "files": [
+    {
+      "path": "COMPONENTS.json",
+      "bytes": 1236
+    },
+    {
+      "path": "run.py",
+      "bytes": 3451
+    },
+    {
+      "path": "start_motion.py",
+      "bytes": 1198
+    },
+    {
+      "path": "setup.sh",
+      "bytes": 811
+    },
+    {
+      "path": "README_\u5148\u8bfb\u6211.md",
+      "bytes": 4794
+    },
+    {
+      "path": "RESULTS_AND_LIMITS.md",
+      "bytes": 1726
+    },
+    {
+      "path": "method/README.md",
+      "bytes": 365
+    },
+    {
+      "path": "method/THIRD_PARTY.md",
+      "bytes": 1736
+    },
+    {
+      "path": "method/RELEASE_STATUS.json",
+      "bytes": 1926
+    },
+    {
+      "path": "method/METHOD.md",
+      "bytes": 4509
+    },
+    {
+      "path": "requirements/vision-environment.json",
+      "bytes": 1570
+    },
+    {
+      "path": "requirements/vision.txt",
+      "bytes": 988
+    },
+    {
+      "path": "requirements/sim-environment.json",
+      "bytes": 3624
+    },
+    {
+      "path": "requirements/sim.txt",
+      "bytes": 2284
+    },
+    {
+      "path": "requirements/motion-environment.json",
+      "bytes": 1971
+    },
+    {
+      "path": "requirements/motion.txt",
+      "bytes": 1239
+    },
+    {
+      "path": "evidence/original_release_check.json",
+      "bytes": 132
+    },
+    {
+      "path": "evidence/phi_local_interleaved32.json",
+      "bytes": 9284
+    },
+    {
+      "path": "evidence/literal_rule_interleaved32.json",
+      "bytes": 8962
+    },
+    {
+      "path": "evidence/portable_runtime_check.json",
+      "bytes": 1457
+    },
+    {
+      "path": "method/src/semantic_core.py",
+      "bytes": 10498
+    },
+    {
+      "path": "method/src/question_direct.py",
+      "bytes": 7650
+    },
+    {
+      "path": "method/src/question_scope.py",
+      "bytes": 1759
+    },
+    {
+      "path": "method/src/semantic_agent.py",
+      "bytes": 2663
+    },
+    {
+      "path": "method/src/aggregation.py",
+      "bytes": 8259
+    },
+    {
+      "path": "method/src/vision_spill.py",
+      "bytes": 4187
+    },
+    {
+      "path": "method/src/worker.py",
+      "bytes": 10732
+    },
+    {
+      "path": "method/src/bootstrap.py",
+      "bytes": 610
+    },
+    {
+      "path": "method/src/common.py",
+      "bytes": 593
+    },
+    {
+      "path": "method/src/motion.py",
+      "bytes": 9118
+    },
+    {
+      "path": "method/src/native_cube.py",
+      "bytes": 10786
+    },
+    {
+      "path": "method/src/native_spill.py",
+      "bytes": 5020
+    },
+    {
+      "path": "method/src/skill_execution.py",
+      "bytes": 5479
+    },
+    {
+      "path": "method/src/run_native.py",
+      "bytes": 10884
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/PROVENANCE.json",
+      "bytes": 369
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/README.md",
+      "bytes": 2580
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/added_tokens.json",
+      "bytes": 82
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/config.json",
+      "bytes": 1644
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/preprocessor_config.json",
+      "bytes": 457
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/special_tokens_map.json",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/tokenizer.json",
+      "bytes": 711396
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/tokenizer_config.json",
+      "bytes": 1237
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/vocab.txt",
+      "bytes": 231508
+    },
+    {
+      "path": "runtime/models/grounding_dino_tiny/DOWNLOAD_COMPLETE.json",
+      "bytes": 128
+    },
+    {
+      "path": "runtime/models/laya_en/rl_agent_config.json",
+      "bytes": 745
+    },
+    {
+      "path": "runtime/models/laya_en/README.md",
+      "bytes": 23187
+    },
+    {
+      "path": "runtime/models/laya_en/model.safetensors.complete.json",
+      "bytes": 145
+    },
+    {
+      "path": "runtime/models/laya_en/encoder/config.json",
+      "bytes": 2083
+    },
+    {
+      "path": "runtime/models/laya_en/tokenizer/tokenizer_config.json",
+      "bytes": 308
+    },
+    {
+      "path": "runtime/models/laya_en/tokenizer/tokenizer.json",
+      "bytes": 3583228
+    },
+    {
+      "path": "runtime/vendor/laya/LICENSE",
+      "bytes": 10173
+    },
+    {
+      "path": "runtime/vendor/laya/README.md",
+      "bytes": 77547
+    },
+    {
+      "path": "runtime/vendor/laya/pyproject.toml",
+      "bytes": 2880
+    },
+    {
+      "path": "runtime/vendor/laya/setup.py",
+      "bytes": 124
+    },
+    {
+      "path": "runtime/vendor/laya/laya/__init__.py",
+      "bytes": 3521
+    },
+    {
+      "path": "runtime/vendor/laya/laya/_compile.py",
+      "bytes": 3491
+    },
+    {
+      "path": "runtime/vendor/laya/laya/agent.py",
+      "bytes": 79089
+    },
+    {
+      "path": "runtime/vendor/laya/laya/cli.py",
+      "bytes": 15832
+    },
+    {
+      "path": "runtime/vendor/laya/laya/common.py",
+      "bytes": 27665
+    },
+    {
+      "path": "runtime/vendor/laya/laya/confidence.py",
+      "bytes": 1749
+    },
+    {
+      "path": "runtime/vendor/laya/laya/email.py",
+      "bytes": 13549
+    },
+    {
+      "path": "runtime/vendor/laya/laya/evals.py",
+      "bytes": 23173
+    },
+    {
+      "path": "runtime/vendor/laya/laya/evals_cli.py",
+      "bytes": 16377
+    },
+    {
+      "path": "runtime/vendor/laya/laya/fast.py",
+      "bytes": 12575
+    },
+    {
+      "path": "runtime/vendor/laya/laya/hooks.py",
+      "bytes": 18356
+    },
+    {
+      "path": "runtime/vendor/laya/laya/lang.py",
+      "bytes": 36689
+    },
+    {
+      "path": "runtime/vendor/laya/laya/onnx_agent.py",
+      "bytes": 40021
+    },
+    {
+      "path": "runtime/vendor/laya/laya/presets.py",
+      "bytes": 8322
+    },
+    {
+      "path": "runtime/vendor/laya/laya/revisions.py",
+      "bytes": 6049
+    },
+    {
+      "path": "runtime/vendor/laya/laya/router.py",
+      "bytes": 63555
+    },
+    {
+      "path": "runtime/vendor/laya/laya/serve.py",
+      "bytes": 26037
+    },
+    {
+      "path": "runtime/vendor/laya/laya/shortlist.py",
+      "bytes": 14510
+    },
+    {
+      "path": "runtime/vendor/laya/laya/structured.py",
+      "bytes": 16311
+    },
+    {
+      "path": "runtime/vendor/laya/laya/tl_kernels.py",
+      "bytes": 10654
+    },
+    {
+      "path": "runtime/vendor/laya/laya/integrations/__init__.py",
+      "bytes": 787
+    },
+    {
+      "path": "runtime/vendor/laya/laya/integrations/_errors.py",
+      "bytes": 483
+    },
+    {
+      "path": "runtime/vendor/laya/laya/integrations/crewai.py",
+      "bytes": 15928
+    },
+    {
+      "path": "runtime/vendor/laya/laya/integrations/langchain.py",
+      "bytes": 40583
+    },
+    {
+      "path": "runtime/vendor/laya/laya/integrations/llamaindex.py",
+      "bytes": 18683
+    },
+    {
+      "path": "runtime/vendor/laya/laya/mcp/__init__.py",
+      "bytes": 422
+    },
+    {
+      "path": "runtime/vendor/laya/laya/mcp/device.py",
+      "bytes": 4748
+    },
+    {
+      "path": "runtime/vendor/laya/laya/mcp/server.py",
+      "bytes": 17268
+    },
+    {
+      "path": "runtime/vendor/laya/laya/mcp/tools.py",
+      "bytes": 43530
+    },
+    {
+      "path": "weights/T4/PROTOCOL.json",
+      "bytes": 571
+    },
+    {
+      "path": "weights/T4/HISTORY.json",
+      "bytes": 2955
+    },
+    {
+      "path": "weights/T4/ENCODED_COUNTS.json",
+      "bytes": 86
+    },
+    {
+      "path": "weights/T4/COMPLETE.json",
+      "bytes": 3688
+    },
+    {
+      "path": "vendor/capx/LICENSE",
+      "bytes": 1062
+    },
+    {
+      "path": "vendor/capx/README.md",
+      "bytes": 9521
+    },
+    {
+      "path": "vendor/capx/pyproject.toml",
+      "bytes": 4417
+    },
+    {
+      "path": "vendor/robosuite/LICENSE",
+      "bytes": 1474
+    },
+    {
+      "path": "vendor/robosuite/README.md",
+      "bytes": 5884
+    },
+    {
+      "path": "vendor/robosuite/setup.py",
+      "bytes": 1207
+    },
+    {
+      "path": "vendor/robosuite/pyproject.toml",
+      "bytes": 338
+    },
+    {
+      "path": "vendor/robosuite/requirements.txt",
+      "bytes": 5
+    },
+    {
+      "path": "vendor/capx/capx/__init__.py",
+      "bytes": 536
+    },
+    {
+      "path": "vendor/capx/capx/integrations/base_api.py",
+      "bytes": 4474
+    },
+    {
+      "path": "vendor/capx/capx/envs/__init__.py",
+      "bytes": 186
+    },
+    {
+      "path": "vendor/capx/capx/envs/base.py",
+      "bytes": 3057
+    },
+    {
+      "path": "vendor/capx/capx/envs/launch.py",
+      "bytes": 8205
+    },
+    {
+      "path": "vendor/capx/capx/envs/runner.py",
+      "bytes": 12795
+    },
+    {
+      "path": "vendor/capx/capx/envs/trial.py",
+      "bytes": 38310
+    },
+    {
+      "path": "vendor/capx/capx/utils/__init__.py",
+      "bytes": 68
+    },
+    {
+      "path": "vendor/capx/capx/utils/camera_utils.py",
+      "bytes": 942
+    },
+    {
+      "path": "vendor/capx/capx/utils/depth_utils.py",
+      "bytes": 8859
+    },
+    {
+      "path": "vendor/capx/capx/utils/eval_utils.py",
+      "bytes": 6548
+    },
+    {
+      "path": "vendor/capx/capx/utils/execution_logger.py",
+      "bytes": 14703
+    },
+    {
+      "path": "vendor/capx/capx/utils/graspnet_utils.py",
+      "bytes": 11841
+    },
+    {
+      "path": "vendor/capx/capx/utils/launch_utils.py",
+      "bytes": 22419
+    },
+    {
+      "path": "vendor/capx/capx/utils/msgpack_server_client_utils.py",
+      "bytes": 2799
+    },
+    {
+      "path": "vendor/capx/capx/utils/parallel_eval.py",
+      "bytes": 10762
+    },
+    {
+      "path": "vendor/capx/capx/utils/serve_utils.py",
+      "bytes": 3383
+    },
+    {
+      "path": "vendor/capx/capx/utils/video_utils.py",
+      "bytes": 6526
+    },
+    {
+      "path": "vendor/capx/capx/utils/visualization_utils.py",
+      "bytes": 8778
+    },
+    {
+      "path": "vendor/capx/capx/serving/__init__.py",
+      "bytes": 49
+    },
+    {
+      "path": "vendor/capx/capx/serving/launch_pyroki_server.py",
+      "bytes": 12603
+    },
+    {
+      "path": "vendor/capx/capx/integrations/franka/common.py",
+      "bytes": 14026
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/curobo.py",
+      "bytes": 2203
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/curobo_api.py",
+      "bytes": 62388
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki.py",
+      "bytes": 3557
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_context.py",
+      "bytes": 2447
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/__init__.py",
+      "bytes": 702
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_online_planning.py",
+      "bytes": 7051
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik.py",
+      "bytes": 1989
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_vel_cost.py",
+      "bytes": 3008
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_with_base.py",
+      "bytes": 4029
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_with_collision.py",
+      "bytes": 2855
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_with_manipulability.py",
+      "bytes": 2385
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_with_multiple_targets.py",
+      "bytes": 2658
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_with_multiple_targets_vel_cost.py",
+      "bytes": 3390
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_solve_ik_with_rest_cost.py",
+      "bytes": 2443
+    },
+    {
+      "path": "vendor/capx/capx/integrations/motion/pyroki_snippets/_trajopt.py",
+      "bytes": 8414
+    },
+    {
+      "path": "vendor/capx/capx/integrations/robosuite/controllers/config/robots/panda_joint_ctrl.json",
+      "bytes": 619
+    },
+    {
+      "path": "vendor/capx/capx/integrations/robosuite/controllers/config/robots/panda_joint_ctrl2.json",
+      "bytes": 658
+    },
+    {
+      "path": "vendor/capx/capx/envs/adapters/__init__.py",
+      "bytes": 175
+    },
+    {
+      "path": "vendor/capx/capx/envs/adapters/libero_wrapper.py",
+      "bytes": 1140
+    },
+    {
+      "path": "vendor/capx/capx/envs/adapters/robosuite_wrapper.py",
+      "bytes": 909
+    },
+    {
+      "path": "vendor/capx/capx/envs/configs/instantiate.py",
+      "bytes": 7390
+    },
+    {
+      "path": "vendor/capx/capx/envs/configs/loader.py",
+      "bytes": 7690
+    },
+    {
+      "path": "vendor/capx/capx/envs/scripts/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/capx/capx/envs/scripts/run_batch.py",
+      "bytes": 16406
+    },
+    {
+      "path": "vendor/capx/capx/envs/scripts/run_libero_batch.py",
+      "bytes": 8577
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/__init__.py",
+      "bytes": 3218
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/franka_real.py",
+      "bytes": 16925
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/libero.py",
+      "bytes": 32491
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/r1pro_b1k.py",
+      "bytes": 49474
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_base.py",
+      "bytes": 19693
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_cube_lift.py",
+      "bytes": 10115
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_cubes.py",
+      "bytes": 8146
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_cubes_restack.py",
+      "bytes": 19608
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_handover.py",
+      "bytes": 37467
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_nut_assembly.py",
+      "bytes": 21599
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_spill_wipe.py",
+      "bytes": 10594
+    },
+    {
+      "path": "vendor/capx/capx/envs/simulators/robosuite_two_arm_lift.py",
+      "bytes": 33784
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/__init__.py",
+      "bytes": 6082
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/base.py",
+      "bytes": 15561
+    },
+    {
+      "path": "vendor/capx/capx/envs/assets/franka_pick_place/panda_scene.xml",
+      "bytes": 16090
+    },
+    {
+      "path": "vendor/capx/capx/envs/assets/ur5_pick_place/ur5_pick_place.xml",
+      "bytes": 12663
+    },
+    {
+      "path": "vendor/capx/capx/envs/assets/ur5_pick_place/ur5_pick_place_new.xml",
+      "bytes": 17641
+    },
+    {
+      "path": "vendor/capx/capx/envs/assets/yam_models/station.urdf",
+      "bytes": 42733
+    },
+    {
+      "path": "vendor/capx/capx/envs/assets/yam_models/station.xml",
+      "bytes": 28133
+    },
+    {
+      "path": "vendor/capx/capx/envs/assets/yam_models/station_towel_fold.xml",
+      "bytes": 28850
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/franka_cube_restack.py",
+      "bytes": 2300
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/franka_libero_env.py",
+      "bytes": 20991
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/franka_lift.py",
+      "bytes": 1310
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/franka_nut_assembly.py",
+      "bytes": 4833
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/franka_pick_place.py",
+      "bytes": 2333
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/franka_spill_wipe.py",
+      "bytes": 3183
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/two_arm_handover.py",
+      "bytes": 5273
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/franka/two_arm_lift.py",
+      "bytes": 5025
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/r1pro/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/r1pro/r1pro_behavior.py",
+      "bytes": 1092
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/r1pro/r1pro_pickup_radio.py",
+      "bytes": 2596
+    },
+    {
+      "path": "vendor/capx/capx/envs/tasks/r1pro/r1pro_pickup_trash.py",
+      "bytes": 5302
+    },
+    {
+      "path": "vendor/capx/capx/serving/assets/panda_spheres.json",
+      "bytes": 6760
+    },
+    {
+      "path": "vendor/robosuite/robosuite/__init__.py",
+      "bytes": 2225
+    },
+    {
+      "path": "vendor/robosuite/robosuite/macros.py",
+      "bytes": 2576
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/__init__.py",
+      "bytes": 689
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_collect_and_playback_data.py",
+      "bytes": 4003
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_composite_robot.py",
+      "bytes": 2497
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_control.py",
+      "bytes": 8672
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_device_control.py",
+      "bytes": 11847
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_domain_randomization.py",
+      "bytes": 2785
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_gripper_interaction.py",
+      "bytes": 5014
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_gripper_selection.py",
+      "bytes": 1663
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_gym_functionality.py",
+      "bytes": 2168
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_multi_camera.py",
+      "bytes": 2447
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_random_action.py",
+      "bytes": 2363
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_renderers.py",
+      "bytes": 4241
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_segmentation.py",
+      "bytes": 3763
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_sensor_corruption.py",
+      "bytes": 11331
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_usd_export.py",
+      "bytes": 7659
+    },
+    {
+      "path": "vendor/robosuite/robosuite/demos/demo_video_recording.py",
+      "bytes": 2176
+    },
+    {
+      "path": "vendor/robosuite/robosuite/devices/__init__.py",
+      "bytes": 445
+    },
+    {
+      "path": "vendor/robosuite/robosuite/devices/device.py",
+      "bytes": 14392
+    },
+    {
+      "path": "vendor/robosuite/robosuite/devices/dualsense.py",
+      "bytes": 22054
+    },
+    {
+      "path": "vendor/robosuite/robosuite/devices/keyboard.py",
+      "bytes": 7664
+    },
+    {
+      "path": "vendor/robosuite/robosuite/devices/mjgui.py",
+      "bytes": 7652
+    },
+    {
+      "path": "vendor/robosuite/robosuite/devices/spacemouse.py",
+      "bytes": 13744
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/__init__.py",
+      "bytes": 88
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/base.py",
+      "bytes": 33951
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/robot_env.py",
+      "bytes": 27061
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/__init__.py",
+      "bytes": 110
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/base.py",
+      "bytes": 23971
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/world.py",
+      "bytes": 588
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/__init__.py",
+      "bytes": 39
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/base.py",
+      "bytes": 1583
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/base_parser.py",
+      "bytes": 1354
+    },
+    {
+      "path": "vendor/robosuite/robosuite/robots/__init__.py",
+      "bytes": 1581
+    },
+    {
+      "path": "vendor/robosuite/robosuite/robots/fixed_base_robot.py",
+      "bytes": 8835
+    },
+    {
+      "path": "vendor/robosuite/robosuite/robots/legged_robot.py",
+      "bytes": 10682
+    },
+    {
+      "path": "vendor/robosuite/robosuite/robots/mobile_robot.py",
+      "bytes": 20785
+    },
+    {
+      "path": "vendor/robosuite/robosuite/robots/robot.py",
+      "bytes": 43766
+    },
+    {
+      "path": "vendor/robosuite/robosuite/robots/wheeled_robot.py",
+      "bytes": 7215
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/browse_mjcf_model.py",
+      "bytes": 1588
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/check_custom_robot_model.py",
+      "bytes": 5034
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/collect_human_demonstrations.py",
+      "bytes": 13820
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/compile_mjcf_model.py",
+      "bytes": 885
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/make_reset_video.py",
+      "bytes": 2742
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/playback_demonstrations_from_hdf5.py",
+      "bytes": 3390
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/print_robosuite_info.py",
+      "bytes": 1609
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/print_robot_action_info.py",
+      "bytes": 1631
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/render_dataset_with_omniverse.py",
+      "bytes": 26737
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/setup_macros.py",
+      "bytes": 996
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/tune_camera.py",
+      "bytes": 8963
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/tune_joints.py",
+      "bytes": 12135
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/__init__.py",
+      "bytes": 82
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/binding_utils.py",
+      "bytes": 42311
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/buffers.py",
+      "bytes": 5018
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/camera_utils.py",
+      "bytes": 24242
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/control_utils.py",
+      "bytes": 10007
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/errors.py",
+      "bytes": 404
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/ik_utils.py",
+      "bytes": 17204
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/input_utils.py",
+      "bytes": 4690
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/log_utils.py",
+      "bytes": 5260
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/mjcf_utils.py",
+      "bytes": 41539
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/mjmod.py",
+      "bytes": 70652
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/numba.py",
+      "bytes": 212
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/observables.py",
+      "bytes": 15663
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/placement_samplers.py",
+      "bytes": 18952
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/robot_composition_utils.py",
+      "bytes": 2386
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/robot_utils.py",
+      "bytes": 479
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/sim_utils.py",
+      "bytes": 2994
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/traj_utils.py",
+      "bytes": 5674
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/transform_utils.py",
+      "bytes": 26958
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/__init__.py",
+      "bytes": 512
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/data_collection_wrapper.py",
+      "bytes": 7277
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/demo_sampler_wrapper.py",
+      "bytes": 11686
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/domain_randomization_wrapper.py",
+      "bytes": 9442
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/gym_wrapper.py",
+      "bytes": 6715
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/visualization_wrapper.py",
+      "bytes": 7290
+    },
+    {
+      "path": "vendor/robosuite/robosuite/wrappers/wrapper.py",
+      "bytes": 3834
+    },
+    {
+      "path": "vendor/robosuite/robosuite/assets/bowl/bowl.xml",
+      "bytes": 807
+    },
+    {
+      "path": "vendor/robosuite/robosuite/assets/duct_tape/duct_tape.xml",
+      "bytes": 832
+    },
+    {
+      "path": "vendor/robosuite/robosuite/assets/yellow_tape/yellow_tape.xml",
+      "bytes": 3036
+    },
+    {
+      "path": "vendor/robosuite/robosuite/assets/yellow_tape_cad/yellow_tape_cad.xml",
+      "bytes": 2423
+    },
+    {
+      "path": "vendor/robosuite/robosuite/assets/yellow_tape/yellow_tape_decomp/yellow_tape.xml",
+      "bytes": 21454
+    },
+    {
+      "path": "vendor/robosuite/robosuite/assets/yellow_tape/yellow_tape_decomp/yellow_tape_working.xml",
+      "bytes": 28041
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/composite/__init__.py",
+      "bytes": 1092
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/composite/composite_controller.py",
+      "bytes": 22664
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/composite/composite_controller_factory.py",
+      "bytes": 6091
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/controller.py",
+      "bytes": 13928
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/controller_factory.py",
+      "bytes": 9105
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_baxter.json",
+      "bytes": 1744
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_gr1.json",
+      "bytes": 3711
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_gr1_fixed_lower_body.json",
+      "bytes": 3247
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_gr1_floating_body.json",
+      "bytes": 2165
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_iiwa.json",
+      "bytes": 911
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_kinova3.json",
+      "bytes": 911
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_panda.json",
+      "bytes": 911
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_panda_dex.json",
+      "bytes": 960
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_pandaomron.json",
+      "bytes": 1155
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_pandaomron_whole_body_ik.json",
+      "bytes": 3589
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_sawyer.json",
+      "bytes": 911
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_spotwitharm.json",
+      "bytes": 1309
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_tiago.json",
+      "bytes": 3280
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_tiago_whole_body_ik.json",
+      "bytes": 2773
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/robots/default_ur5e.json",
+      "bytes": 911
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/composite/basic.json",
+      "bytes": 3041
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/composite/hybrid_mobile_base.json",
+      "bytes": 3054
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/composite/whole_body_ik.json",
+      "bytes": 3572
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/composite/whole_body_mink_ik.json",
+      "bytes": 3248
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/parts/ik_pose.json",
+      "bytes": 131
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/parts/joint_position.json",
+      "bytes": 333
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/parts/joint_torque.json",
+      "bytes": 198
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/parts/joint_velocity.json",
+      "bytes": 220
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/parts/osc_pose.json",
+      "bytes": 515
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/config/default/parts/osc_position.json",
+      "bytes": 424
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/arm/__init__.py",
+      "bytes": 88
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/arm/ik.py",
+      "bytes": 24514
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/arm/osc.py",
+      "bytes": 27576
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/generic/__init__.py",
+      "bytes": 139
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/generic/joint_pos.py",
+      "bytes": 14322
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/generic/joint_tor.py",
+      "bytes": 7775
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/generic/joint_vel.py",
+      "bytes": 9410
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/gripper/__init__.py",
+      "bytes": 46
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/gripper/gripper_controller.py",
+      "bytes": 8149
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/gripper/simple_grip.py",
+      "bytes": 8816
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/mobile_base/__init__.py",
+      "bytes": 57
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/mobile_base/joint_vel.py",
+      "bytes": 13834
+    },
+    {
+      "path": "vendor/robosuite/robosuite/controllers/parts/mobile_base/mobile_base_controller.py",
+      "bytes": 8666
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/__init__.py",
+      "bytes": 1
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/door.py",
+      "bytes": 20603
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/lift.py",
+      "bytes": 18269
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/manipulation_env.py",
+      "bytes": 24040
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/nut_assembly.py",
+      "bytes": 30575
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/pick_place.py",
+      "bytes": 35988
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/stack.py",
+      "bytes": 21667
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/tool_hang.py",
+      "bytes": 35058
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_cube_bowl_handover.py",
+      "bytes": 23915
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_env.py",
+      "bytes": 6502
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_handover.py",
+      "bytes": 28285
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_lift.py",
+      "bytes": 24026
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_peg_in_hole.py",
+      "bytes": 23866
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_tape_handover.py",
+      "bytes": 24021
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/two_arm_transport.py",
+      "bytes": 26695
+    },
+    {
+      "path": "vendor/robosuite/robosuite/environments/manipulation/wipe.py",
+      "bytes": 33138
+    },
+    {
+      "path": "vendor/robosuite/robosuite/examples/third_party_controller/default_mink_ik_gr1.json",
+      "bytes": 3248
+    },
+    {
+      "path": "vendor/robosuite/robosuite/examples/third_party_controller/mink_controller.py",
+      "bytes": 25600
+    },
+    {
+      "path": "vendor/robosuite/robosuite/examples/third_party_controller/teleop_mink.py",
+      "bytes": 5677
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/__init__.py",
+      "bytes": 293
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/arena.py",
+      "bytes": 5883
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/bins_arena.py",
+      "bytes": 1223
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/empty_arena.py",
+      "bytes": 252
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/multi_table_arena.py",
+      "bytes": 6216
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/pegs_arena.py",
+      "bytes": 1031
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/table_arena.py",
+      "bytes": 4090
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/wipe_arena.py",
+      "bytes": 7654
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/arenas/yam_station_arena.py",
+      "bytes": 318
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/base.xml",
+      "bytes": 476
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/__init__.py",
+      "bytes": 1179
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/floating_legged_base.py",
+      "bytes": 686
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/leg_base_model.py",
+      "bytes": 6090
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/mobile_base_model.py",
+      "bytes": 238
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/mount_model.py",
+      "bytes": 282
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/no_actuation_base.py",
+      "bytes": 680
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/null_base.py",
+      "bytes": 659
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/null_base_model.py",
+      "bytes": 232
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/null_mobile_base.py",
+      "bytes": 678
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/null_mount.py",
+      "bytes": 645
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/omron_mobile_base.py",
+      "bytes": 708
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/rethink_minimal_mount.py",
+      "bytes": 796
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/rethink_mount.py",
+      "bytes": 790
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/robot_base_factory.py",
+      "bytes": 852
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/robot_base_model.py",
+      "bytes": 3162
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/bases/spot_base.py",
+      "bytes": 1351
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/__init__.py",
+      "bytes": 1716
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/bd_gripper.py",
+      "bytes": 1098
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/fourier_hands.py",
+      "bytes": 5146
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/gripper_factory.py",
+      "bytes": 956
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/gripper_model.py",
+      "bytes": 5315
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/gripper_tester.py",
+      "bytes": 9068
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/inspire_hands.py",
+      "bytes": 4992
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/jaco_three_finger_gripper.py",
+      "bytes": 3058
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/null_gripper.py",
+      "bytes": 644
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/panda_gripper.py",
+      "bytes": 1750
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/rethink_gripper.py",
+      "bytes": 1774
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/robotiq_140_gripper.py",
+      "bytes": 2135
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/robotiq_85_gripper.py",
+      "bytes": 2059
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/robotiq_three_finger_gripper.py",
+      "bytes": 3198
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/wiping_gripper.py",
+      "bytes": 970
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/grippers/xarm7_gripper.py",
+      "bytes": 1462
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/__init__.py",
+      "bytes": 602
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/generated_objects.py",
+      "bytes": 32576
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/object_groups.py",
+      "bytes": 1533
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/objects.py",
+      "bytes": 24438
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/xml_objects.py",
+      "bytes": 8679
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/__init__.py",
+      "bytes": 454
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/compositional.py",
+      "bytes": 2421
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/robot_model.py",
+      "bytes": 17483
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/tasks/__init__.py",
+      "bytes": 71
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/tasks/manipulation_task.py",
+      "bytes": 176
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/tasks/task.py",
+      "bytes": 8372
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/arenas/bins_arena.xml",
+      "bytes": 7306
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/arenas/empty_arena.xml",
+      "bytes": 2593
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/arenas/multi_table_arena.xml",
+      "bytes": 3534
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/arenas/pegs_arena.xml",
+      "bytes": 5317
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/arenas/table_arena.xml",
+      "bytes": 4351
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/arenas/yam_station.xml",
+      "bytes": 2531
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/floating_legged_base.xml",
+      "bytes": 1567
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/no_actuation_base.xml",
+      "bytes": 653
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/null_base.xml",
+      "bytes": 226
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/null_mobile_base.xml",
+      "bytes": 1398
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/null_mount.xml",
+      "bytes": 126
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/omron_mobile_base.xml",
+      "bytes": 5630
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/rethink_minimal_mount.xml",
+      "bytes": 792
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bases/rethink_mount.xml",
+      "bytes": 1546
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/bd_gripper.xml",
+      "bytes": 4972
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/fourier_left_hand.xml",
+      "bytes": 14256
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/fourier_right_hand.xml",
+      "bytes": 15427
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/inspire_left_hand.xml",
+      "bytes": 17667
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/inspire_right_hand.xml",
+      "bytes": 17742
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/jaco_three_finger_gripper.xml",
+      "bytes": 9929
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/null_gripper.xml",
+      "bytes": 1297
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/panda_gripper.xml",
+      "bytes": 4546
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/rethink_gripper.xml",
+      "bytes": 6317
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/robotiq_gripper_140.xml",
+      "bytes": 10598
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/robotiq_gripper_85.xml",
+      "bytes": 10080
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/robotiq_gripper_s.xml",
+      "bytes": 15103
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/wiping_gripper.xml",
+      "bytes": 9620
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/xarm7_gripper.xml",
+      "bytes": 7330
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/bottle.xml",
+      "bytes": 987
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/bread-visual.xml",
+      "bytes": 603
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/bread.xml",
+      "bytes": 814
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/can-visual.xml",
+      "bytes": 575
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/can.xml",
+      "bytes": 777
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/cereal-visual.xml",
+      "bytes": 587
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/cereal.xml",
+      "bytes": 814
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/door.xml",
+      "bytes": 2759
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/door_lock.xml",
+      "bytes": 3259
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/lemon.xml",
+      "bytes": 811
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/milk-visual.xml",
+      "bytes": 600
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/milk.xml",
+      "bytes": 820
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/plate-with-hole.xml",
+      "bytes": 952
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/round-nut.xml",
+      "bytes": 2634
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/objects/square-nut.xml",
+      "bytes": 1733
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/panda_description/CMakeLists.txt",
+      "bytes": 289
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/panda_description/package.xml",
+      "bytes": 661
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/panda_description/rosdoc.yaml",
+      "bytes": 44
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/sawyer_description/CMakeLists.txt",
+      "bytes": 263
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/sawyer_description/package.xml",
+      "bytes": 883
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/baxter_description/urdf/baxter_arm.urdf",
+      "bytes": 51909
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/panda_description/urdf/hand.urdf",
+      "bytes": 2730
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/panda_description/urdf/panda_arm.urdf",
+      "bytes": 7703
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/panda_description/urdf/panda_arm_hand.urdf",
+      "bytes": 10122
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/sawyer_description/params/named_poses.yaml",
+      "bytes": 425
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/bullet_data/sawyer_description/urdf/sawyer_arm.urdf",
+      "bytes": 7865
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/grippers/obj_meshes/rethink_gripper/connector_plate/connector_plate.xml",
+      "bytes": 635
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/baxter/robot.xml",
+      "bytes": 23500
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/gr1/robot.xml",
+      "bytes": 28345
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/iiwa/robot.xml",
+      "bytes": 9818
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/jaco/robot.xml",
+      "bytes": 9128
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/kinova3/robot.xml",
+      "bytes": 7076
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/panda/robot.xml",
+      "bytes": 21368
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/sawyer/robot.xml",
+      "bytes": 21787
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/spot/robot.xml",
+      "bytes": 11406
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/spot_arm/robot.xml",
+      "bytes": 6438
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/tiago/robot.xml",
+      "bytes": 25094
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/ur5e/robot.xml",
+      "bytes": 9277
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/xarm7/robot.xml",
+      "bytes": 6085
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/yam/station.urdf",
+      "bytes": 42733
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/yam/station.xml",
+      "bytes": 28133
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/yam/station_towel_fold.xml",
+      "bytes": 28850
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/assets/robots/yam/yam.xml",
+      "bytes": 13818
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/__init__.py",
+      "bytes": 284
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/bin.py",
+      "bytes": 5290
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/cone.py",
+      "bytes": 5080
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/hammer.py",
+      "bytes": 11109
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/hollow_cylinder.py",
+      "bytes": 5244
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/hook_frame.py",
+      "bytes": 13307
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/lid.py",
+      "bytes": 4684
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/pot_with_handles.py",
+      "bytes": 12613
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite/stand_with_mount.py",
+      "bytes": 7358
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite_body/__init__.py",
+      "bytes": 94
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite_body/hinged_box.py",
+      "bytes": 4593
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/composite_body/ratcheting_wrench.py",
+      "bytes": 5354
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/group/__init__.py",
+      "bytes": 38
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/group/transport.py",
+      "bytes": 6584
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/primitive/__init__.py",
+      "bytes": 128
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/primitive/ball.py",
+      "bytes": 1785
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/primitive/box.py",
+      "bytes": 1857
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/primitive/capsule.py",
+      "bytes": 1863
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/objects/primitive/cylinder.py",
+      "bytes": 2654
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/__init__.py",
+      "bytes": 462
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/baxter_robot.py",
+      "bytes": 2647
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/gr1_robot.py",
+      "bytes": 5921
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/humanoid_model.py",
+      "bytes": 5970
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/humanoid_upperbody_model.py",
+      "bytes": 6036
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/iiwa_robot.py",
+      "bytes": 1319
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/jaco_robot.py",
+      "bytes": 1327
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/kinova3_robot.py",
+      "bytes": 1339
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/legged_manipulator_model.py",
+      "bytes": 3232
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/manipulator_model.py",
+      "bytes": 12767
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/panda_robot.py",
+      "bytes": 1492
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/sawyer_robot.py",
+      "bytes": 1328
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/spot_arm.py",
+      "bytes": 1454
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/tiago_robot.py",
+      "bytes": 2990
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/ur5e_robot.py",
+      "bytes": 1331
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/xarm7_robot.py",
+      "bytes": 1472
+    },
+    {
+      "path": "vendor/robosuite/robosuite/models/robots/manipulators/yam_robot.py",
+      "bytes": 1312
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/config/nvisii_config.json",
+      "bytes": 299
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/context/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/context/egl_context.py",
+      "bytes": 6068
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/context/glfw_context.py",
+      "bytes": 933
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/context/osmesa_context.py",
+      "bytes": 987
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/viewer/__init__.py",
+      "bytes": 90
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/viewer/mjviewer_renderer.py",
+      "bytes": 1769
+    },
+    {
+      "path": "vendor/robosuite/robosuite/renderers/viewer/opencv_renderer.py",
+      "bytes": 2918
+    },
+    {
+      "path": "vendor/robosuite/robosuite/scripts/internal/view_robot_initialization.py",
+      "bytes": 2167
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/camera.py",
+      "bytes": 2167
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/demo.py",
+      "bytes": 2552
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/exporter.py",
+      "bytes": 21230
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/lights.py",
+      "bytes": 5371
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/objects.py",
+      "bytes": 20462
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/shapes.py",
+      "bytes": 14247
+    },
+    {
+      "path": "vendor/robosuite/robosuite/utils/usd/utils.py",
+      "bytes": 1496
+    },
+    {
+      "path": "robot_assets/example-robot-data/package.xml",
+      "bytes": 1466
+    },
+    {
+      "path": "robot_assets/example-robot-data/LICENSE",
+      "bytes": 1611
+    },
+    {
+      "path": "robot_assets/example-robot-data/robots/panda_description/LICENSE",
+      "bytes": 10173
+    },
+    {
+      "path": "robot_assets/example-robot-data/robots/panda_description/README.md",
+      "bytes": 122
+    },
+    {
+      "path": "robot_assets/example-robot-data/robots/panda_description/urdf/panda.urdf",
+      "bytes": 15069
+    }
+  ]
+}

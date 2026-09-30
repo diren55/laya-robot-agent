@@ -1,0 +1,122 @@
+{
+  "selected": {
+    "epoch": 1,
+    "weights": "best_selected.pt",
+    "cal_macro": 0.9922732425772626,
+    "cal_accuracy": 0.9929088354110718,
+    "temperature": 1.0
+  },
+  "temperature_cal_nll": {
+    "1.0": 0.03939364477992058,
+    "1.5": 0.08218273520469666,
+    "2.0": 0.15722286701202393,
+    "3.0": 0.3179889917373657
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "seconds": 13.3184952638112,
+      "cal": {
+        "hard_scope_n": 364,
+        "hard_scope_accuracy": 0.8901098966598511,
+        "accuracy": 0.9861131906509399,
+        "macro_accuracy": 0.9838900436525759,
+        "by_group": {
+          "action": 0.9958974123001099,
+          "cancelled": 1.0,
+          "coverage": 1.0,
+          "forbid": 0.9985422492027283,
+          "guard": 1.0,
+          "link": 0.9570661783218384,
+          "order": 0.9462151527404785,
+          "protect": 0.9987373948097229,
+          "recover": 1.0,
+          "task_state": 0.9779411554336548
+        },
+        "by_stratum": {
+          "action:0": 0.9982331991195679,
+          "action:1": 0.993794322013855,
+          "action:2": 1.0,
+          "cancelled:0": 1.0,
+          "cancelled:1": 1.0,
+          "coverage:0": 1.0,
+          "coverage:1": 1.0,
+          "coverage:2": 1.0,
+          "forbid:0": 1.0,
+          "forbid:1": 0.9971751570701599,
+          "guard:0": 1.0,
+          "guard:1": 1.0,
+          "link:0": 0.807692289352417,
+          "link:1": 0.9767206311225891,
+          "order:0": 0.9248554706573486,
+          "order:1": 0.957446813583374,
+          "protect:0": 1.0,
+          "protect:1": 0.9971751570701599,
+          "protect:2": 1.0,
+          "recover:0": 1.0,
+          "recover:1": 1.0,
+          "task_state:0": 0.9763779640197754,
+          "task_state:1": 1.0
+        },
+        "n": 6769,
+        "link_pair_n": 559,
+        "link_pair_exact": 521,
+        "link_pair_contradictory_yes": 2
+      }
+    },
+    {
+      "epoch": 1,
+      "seconds": 728.5328302849084,
+      "train_loss": 0.08661368705810382,
+      "cal": {
+        "hard_scope_n": 364,
+        "hard_scope_accuracy": 0.9697802066802979,
+        "accuracy": 0.9929088354110718,
+        "macro_accuracy": 0.9922732425772626,
+        "by_group": {
+          "action": 0.9923076629638672,
+          "cancelled": 1.0,
+          "coverage": 1.0,
+          "forbid": 0.9985422492027283,
+          "guard": 0.9955849647521973,
+          "link": 0.9901610016822815,
+          "order": 0.9641434550285339,
+          "protect": 1.0,
+          "recover": 1.0,
+          "task_state": 0.9975489974021912
+        },
+        "by_stratum": {
+          "action:0": 0.9787985682487488,
+          "action:1": 0.9973404407501221,
+          "action:2": 1.0,
+          "cancelled:0": 1.0,
+          "cancelled:1": 1.0,
+          "coverage:0": 1.0,
+          "coverage:1": 1.0,
+          "coverage:2": 1.0,
+          "forbid:0": 1.0,
+          "forbid:1": 0.9971751570701599,
+          "guard:0": 1.0,
+          "guard:1": 0.994350254535675,
+          "link:0": 0.9461538195610046,
+          "link:1": 0.9959514141082764,
+          "order:0": 0.9364162087440491,
+          "order:1": 0.978723406791687,
+          "protect:0": 1.0,
+          "protect:1": 1.0,
+          "protect:2": 1.0,
+          "recover:0": 1.0,
+          "recover:1": 1.0,
+          "task_state:0": 0.9973753094673157,
+          "task_state:1": 1.0
+        },
+        "n": 6769,
+        "link_pair_n": 559,
+        "link_pair_exact": 551,
+        "link_pair_contradictory_yes": 1
+      }
+    }
+  ],
+  "seconds": 731.8066037278622,
+  "boundary": "Semantic component only; no robot success or runtime speed claim. Synthetic CAL selection, not universal confidence calibration."
+}

@@ -1,0 +1,12 @@
+{
+  "train_requests": 1408,
+  "cal_requests": 408,
+  "epochs": 1,
+  "initialization": "CAL-selected v3; new exact action-condition contrasts, three-step dependencies and self-negative conditions; old independent TRAIN replay",
+  "selection": "highest CAL macro accuracy over query-kind and true-label strata; CAL temperature NLL; DEV/TEST excluded",
+  "no_visual_training": true,
+  "no_generative_llm": true,
+  "no_test_labels": true,
+  "unknowns": "explicit missing-binding supplement",
+  "all_labels": "synthetic declarative TRAIN/CAL generator, not deployment rules"
+}

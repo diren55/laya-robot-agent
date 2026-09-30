@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venvs/
+runs/
+runtime_state/
+*.pt
+*.pth
+*.safetensors
+*.zip
+*.zip.*
+*.merging
+.env
+.env.*
+!.env.example

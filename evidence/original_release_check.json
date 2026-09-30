@@ -1,0 +1,9 @@
+{
+  "summary": {
+    "n": 4,
+    "full_success": 4,
+    "physical_success": 4,
+    "unknown": 0,
+    "generative_llm_calls": 0
+  }
+}
